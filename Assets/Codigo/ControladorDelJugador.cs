@@ -40,6 +40,7 @@ public class ControladorDelJugador : MonoBehaviour
         if(contador>=5)
         {
             finJuego.gameObject.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
